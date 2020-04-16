@@ -1,0 +1,7 @@
+<aura:component controller="OpenCasesApexController" implements="force:appHostable">
+    <aura:attribute name="cases" type="Case[]" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:iteration var="case" items="{!v.cases}">
+        <c:CaseItemCom case="{!case}"/>
+    </aura:iteration>
+</aura:component>
