@@ -5,7 +5,7 @@ public class GiveawaySamsungWatchToNewOpportunityTest {
             opp.Name = 'Giveaway Samsung Watch';
             opp.StageName = 'Prospecting';
             opp.CloseDate = Date.newInstance(2020, 05, 01);
-            opp.Amount = 2500;
+            opp.Amount = 3500;
             insert opp;
     }
 }
